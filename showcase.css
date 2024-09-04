@@ -1,0 +1,73 @@
+#showcase {
+  height: 1130px;
+  background-color: #2f1893;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#showcase-title {
+  width: 70.8%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52.8px;
+}
+
+#showcase-title h3 {
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.4px;
+}
+
+#showcase-title button {
+  padding: 10px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  border: 2px solid #ffffff4d;
+  background-color: transparent;
+  border-radius: 100px;
+  color: #ffffff;
+}
+
+#showcase-works{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 74px 30px;
+}
+
+.work .photo {
+  width: 470px;
+  height: 280px;
+}
+
+.work .photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+#showcase-works .work {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.work .description{
+    text-align: center;
+}
+
+.description label {
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+}
+
+.description h5 {
+  font-size: 22px;
+  line-height: 32px;
+}

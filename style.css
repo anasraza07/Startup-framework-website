@@ -530,22 +530,3 @@ nav ul li a i {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.3);
 }
-
-#call-to-action {
-  height: 605px;
-  background-color: rgb(47, 24, 147, 70%);
-  position: relative;
-}
-
-#call-to-action::before {
-  content: "";
-  position: absolute;
-  background: url("https://s3-alpha-sig.figma.com/img/1269/76cf/680db86b7d6d1e508870cf2887a79864?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bPDeoIMFtAEwm24oKJ~CBshMTO29d9hVNs53Y1oNKyUW2IsU59Xf07N-9JfcX4f1bc53TzfNHPQ6xB3YV9vF5n4xo4bGAY4zX-0YxvY0rJcHtFGEmMMM5R8ZS7yurIuzPLIFXHgKpHthOxJ7fMkWbMg31~W5kPm5ZQ7iO4JAiNeAxKzzsXzmp1eDFeHAY94ZvdoEbBwh8OxjfPcM5FB0Ze7upLAovfU0sNO0xlR69NBhBEbnSK~sGtrCPglZiyCQJRCTSPNZx92WWOWFMtHi4ivkQv4Wq-Ik5cEptiy3KklMWm3msWAZJjhRowsf9h91OhSom5tblh8OQzn038Y8Og__");
-  background-size: cover;
-  background-position: center;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}

@@ -1,0 +1,76 @@
+#call-to-action {
+  height: 605px;
+  background-color: rgb(47, 24, 147, 70%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 58px;
+}
+
+#call-to-action::before {
+  content: "";
+  position: absolute;
+  background: url("https://s3-alpha-sig.figma.com/img/1269/76cf/680db86b7d6d1e508870cf2887a79864?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bPDeoIMFtAEwm24oKJ~CBshMTO29d9hVNs53Y1oNKyUW2IsU59Xf07N-9JfcX4f1bc53TzfNHPQ6xB3YV9vF5n4xo4bGAY4zX-0YxvY0rJcHtFGEmMMM5R8ZS7yurIuzPLIFXHgKpHthOxJ7fMkWbMg31~W5kPm5ZQ7iO4JAiNeAxKzzsXzmp1eDFeHAY94ZvdoEbBwh8OxjfPcM5FB0Ze7upLAovfU0sNO0xlR69NBhBEbnSK~sGtrCPglZiyCQJRCTSPNZx92WWOWFMtHi4ivkQv4Wq-Ik5cEptiy3KklMWm3msWAZJjhRowsf9h91OhSom5tblh8OQzn038Y8Og__");
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#call-to-action-title {
+  max-width: 770px;
+}
+
+#call-to-action-title h2 {
+  font-size: 58px;
+  line-height: 70px;
+  letter-spacing: -1px;
+  text-align: center;
+  max-width: 770px;
+  margin-bottom: 20px;
+}
+
+#call-to-action-title h5 {
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  width: 518px;
+}
+
+#call-to-actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+#call-to-actions #circle {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#call-to-actions #circle img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+
+#call-to-actions #get-started {
+  padding: 22px 52px;
+  border-radius: 100px;
+  border: none;
+  background-color: #25DAC5;
+  columns: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
