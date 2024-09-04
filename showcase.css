@@ -8,7 +8,7 @@
 }
 
 #showcase-title {
-  width: 70.8%;
+  width: 71.9051%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 52.8px;
@@ -65,9 +65,12 @@
   font-size: 14px;
   line-height: 26px;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .description h5 {
   font-size: 22px;
   line-height: 32px;
 }
+
+
