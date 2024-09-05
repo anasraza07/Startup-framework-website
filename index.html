@@ -10,11 +10,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="call-to-action.css">
     <link rel="stylesheet" href="showcase.css">
     <link rel="stylesheet" href="team.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
@@ -317,6 +318,57 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div id="contact-details">
+                <div id="contact-title">
+                    <h3>Let's Keep in Touch</h3>
+                    <h5>We have created a new product that will help designers, developers and companies create websites
+                        for their startups quickly and easily.</h5>
+                </div>
+                <div id="contacts">
+                    <div class="flex">
+                        <i class="fa fa-phone"></i>
+                        <p>+1 555 505 5050</p>
+                    </div>
+                    <div class="flex">
+                        <i class="fa fa-envelope"></i>
+                        <p>info@designmodo.com</p>
+                    </div>
+                    <div class="flex">
+                        <i class="fa fa-building-o"></i>
+                        <p>San Francisco, CA560 Bush St & 20th Ave, Apt5 San Francisco, 230909</p>
+                    </div>
+                </div>
+            </div>
+            <div id="contact-form">
+                <form action="">
+                    <fieldset>
+                        <label for="first-name" id="name-label">YOUR NAME
+                            <input type="text" name="first-name" id="first-name" placeholder="First name">
+                        </label>
+                        <label for="budget" id="budget-label">BUDGET
+                            <select type="text" name="budget" id="budget">
+                                <option value="" disabled selected>$500</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <label for="email">INPUT FIELD
+                        <input type="email" name="email" id="email" placeholder="name@mail.com">
+                    </label>
+                    <label for="message">YOUR MESSAGE
+                        <textarea name="" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    </label>
+                    <fieldset>
+                        <label for="send-copy">
+                            <input type="checkbox" name="send-copy" id="send-copy" value="send-copy">
+                            Send me a copy
+                        </label>
+                        <button type="submit" id="send-btn">Send</button>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>
