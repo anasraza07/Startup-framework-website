@@ -160,3 +160,7 @@ textarea {
   color: #ffffff;
   border-radius: 100px;
 }
+
+#contact-form fieldset:last-of-type #send-btn:hover {
+  background-color: rgba(37, 218, 197, 0.9);
+}

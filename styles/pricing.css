@@ -107,7 +107,16 @@
   color: #ffffff;
 }
 
+.price-btn-get-started:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
 .price-color-btn {
   background-color: #e93a7d;
+  border: none;
+}
+
+.price-color-btn:hover {
+  background-color: rgba(233, 58, 125, 0.9);
   border: none;
 }

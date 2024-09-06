@@ -41,8 +41,12 @@ nav ul li a {
   color: #ffffff;
 }
 
+nav ul li a:hover {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 nav ul li a:active {
-  color: rgb(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.3);
 }
 
 nav ul li a i {
@@ -111,9 +115,13 @@ nav ul li a i {
   background-color: #482be7;
   display: block;
   width: 230px;
-  border: #482be7;
+  border: none;
   color: #ffffff;
   border-radius: 100px;
   margin: 60px auto;
   cursor: pointer;
+}
+
+#sign-up:hover {
+  background-color: rgba(72, 43, 231, 0.9);
 }

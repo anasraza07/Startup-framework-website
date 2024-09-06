@@ -116,6 +116,10 @@
 #create-account {
   background-color: #25dac5;
   margin-top: 10px;
+
+}
+#create-account:hover {
+  background-color: rgba(37, 218, 197, 0.9);
 }
 
 #divider-container {
@@ -145,4 +149,8 @@
 
 #login-btn {
   background-color: #1da1f2;
+}
+
+#login-btn:hover {
+  background-color: rgba(29, 161, 242, 0.9);
 }
