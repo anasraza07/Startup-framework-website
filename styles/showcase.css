@@ -1,5 +1,5 @@
 #showcase {
-  height: 1130px;
+  min-height: 1130px;
   background-color: #2f1893;
   display: flex;
   flex-direction: column;
@@ -15,30 +15,31 @@
 }
 
 #showcase-title h3 {
-  font-size: 42px;
-  line-height: 52px;
+  font-size: 2.625rem;
+  line-height: 3.25rem;
   letter-spacing: -0.4px;
 }
 
 #showcase-title button {
   padding: 10px 24px;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 1.625rem;
   border: 2px solid #ffffff4d;
   background-color: transparent;
   border-radius: 100px;
   color: #ffffff;
 }
 
-#showcase-works{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 74px 30px;
+#showcase-works {
+  width: 71.90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 74px 30px;
 }
 
 .work .photo {
-  width: 470px;
+  width: 100%;
   height: 280px;
 }
 
@@ -53,24 +54,21 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  justify-content: center;
   align-items: center;
 }
 
-.work .description{
-    text-align: center;
+.work .description {
+  text-align: center;
 }
 
 .description label {
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 0.875rem;
+  line-height: 1.625rem;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .description h5 {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 1.375rem;
+  line-height: 2rem;
 }
-
-

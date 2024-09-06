@@ -1,0 +1,148 @@
+#form {
+  min-height: 750px;
+  background-color: #2f189380;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9.63%;
+}
+
+#form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://s3-alpha-sig.figma.com/img/495a/76ab/fa6125a690a426b8fcb3bbfd55392e02?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BqzHr~Pgauqzi12exE8ADmcz2K5-MaQoyxbGM0fJkRem5F5IGNYDWBpXv02kZfHd9-NDajIT8cRl7tMi4hqxEning3Hn3VFpOfr-0vc-jB1SY7RHKcKWgQhIcTA9BL5aTWJuCRg4Ko1JLJxP1kIkNhSkfWxdl9yervfFlSLIyZb6KUXYi1vrVXv-Jx9d2JH9YPfchTtKhFQXg6oJ4RoDgdagDs2xm1lrjulcbqSS1YfTUTbyqw1k0ZAW-apvd90qtkWGKiESmS9juj48Xdt0551KGaLGxNlLrs-OolmyL2YjjBm-e5uhTpwpajQOML79swV2Stjm739lig9DPQI0QA__");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+#form #title {
+  width: 369px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+#form h3 {
+  font-size: 2.625rem;
+  line-height: 3.25rem;
+  letter-spacing: -0.4px;
+}
+
+#form #title p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+#signup-form {
+  border-radius: 12px;
+  width: 470px;
+  border-radius: 5px;
+  padding-bottom: 160px;
+  background-color: #ffffff;
+}
+
+#signup-form-title {
+  display: flex;
+}
+
+#signup-form-title div {
+  width: 100%;
+  padding: 25px 0;
+}
+
+#signup {
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  letter-spacing: 2px;
+  color: #1e0e62;
+  border-bottom: 3px solid #1e0e62;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+}
+
+#login {
+  font-size: 0.875rem;
+  line-height: 1.625rem;
+  letter-spacing: 2px;
+  color: rgb(21, 20, 57, 0.4);
+  border-bottom: 3px solid #ebeaed;
+  text-transform: uppercase;
+  display: grid;
+  place-items: center;
+}
+
+#signup-form form {
+  width: 330px;
+  margin: 72px auto 0 auto;
+}
+
+#signup-form form input {
+  width: 100%;
+  padding: 12px 24px;
+  border-radius: 100px;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  outline: none;
+  border: 2px solid #ebeaed;
+  margin-bottom: 30px;
+  color: rgb(21, 20, 57, 0.4);
+}
+
+#signup-form form input::placeholder {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: rgb(21, 20, 57, 0.4);
+}
+
+.signup-form-btn {
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  border-radius: 100px;
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  cursor: pointer;
+}
+
+#create-account {
+  background-color: #25dac5;
+  margin-top: 10px;
+}
+
+#divider-container {
+  /* border: 1px solid yellow; */
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.divider {
+  width: 142px;
+  height: 1px;
+  background-color: rgb(20, 20, 20, 0.1);
+  border-width: 0;
+}
+
+#or {
+  font-family: "Nunito Sans";
+  width: 15px;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: rgb(20, 20, 20, 0.3);
+}
+
+#login-btn {
+  background-color: #1da1f2;
+}

@@ -1,0 +1,347 @@
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 13px;
+  }
+
+  nav ul {
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  #text-container {
+    margin-top: 90px;
+  }
+
+  #content-title {
+    min-width: 358px;
+  }
+
+  #features {
+    flex-direction: column;
+  }
+
+  #form {
+    padding: 20px 10px;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #signup-form {
+    max-width: 350px;
+    padding-bottom: 100px;
+  }
+
+  #signup-form-title div {
+    padding: 15px 0;
+  }
+
+  #divider-container {
+    margin: 20px 0;
+  }
+
+  #signup-form form input,
+  .signup-form-btn {
+    width: 90%;
+    padding: 6px 12px;
+    display: block;
+    margin: 0 auto 20px auto;
+  }
+
+  #testimonial {
+    padding: 20px 0;
+    align-items: center;
+  }
+
+  #testimonial-container {
+    grid-template-columns: 1fr;
+  }
+
+  #testimonial h3 {
+    margin: 0;
+  }
+
+  .testimonial-item {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 30px;
+    height: 100%;
+  }
+
+  .text {
+    gap: 30px;
+  }
+
+  #call-to-action {
+    padding: 0 10px;
+  }
+
+  #call-to-action-title h5 {
+    width: unset;
+  }
+
+  #showcase {
+    padding: 20px 10px;
+  }
+
+  #showcase-title {
+    width: 100%;
+  }
+
+  #showcase-works {
+    grid-template-columns: 1fr;
+  }
+
+  #team {
+    padding: 20px 10px;
+  }
+
+  #team-container {
+    margin: 0;
+  }
+
+  #team-container-members {
+    grid-template-columns: auto auto;
+    gap: 60.8px 20px;
+  }
+
+  #contact {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  #contact-form {
+    width: unset;
+    height: unset;
+    padding: 58px 0px;
+    border-radius: 12px;
+  }
+
+  #pricing-table{
+    padding: 20px 10px;
+  }
+
+  #price-container {
+    flex-direction: column;
+  }
+
+  #footer{
+    padding: 0;
+  }
+
+  #menu #links{
+    width: unset;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+
+  #text-container {
+    width: unset;
+    margin-top: 80px;
+  }
+
+  #features {
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  #screen {
+    right: 65px;
+  }
+
+  #features article {
+    /* overflow: hidden; */
+    gap: 45px;
+  }
+
+  #features-container #feature-item:last-of-type {
+    display: none;
+  }
+
+  #features-paginator {
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  #form {
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  #signup-form {
+    max-width: 410px;
+  }
+
+  #testimonial {
+    padding: 12px 0;
+  }
+
+  #testimonial h3 {
+    margin-left: 138.5px;
+  }
+
+  #testimonial-container {
+    grid-template-columns: 1fr;
+  }
+
+  #showcase-works {
+    gap: 50px 30px;
+  }
+
+  #team {
+    padding: 12px;
+  }
+
+  #team-container {
+    margin: 0;
+  }
+
+  #team-container-members {
+    grid-template-columns: auto auto;
+  }
+
+  #contact {
+    flex-direction: column;
+    padding: 30px 0;
+  }
+
+  #pricing-table {
+    padding: 30px 0;
+  }
+
+  #price-container {
+    flex-direction: column;
+  }
+
+  #footer {
+    padding: 4px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 15px;
+  }
+
+  #features {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #features article {
+    /* overflow: hidden; */
+    gap: 45px;
+  }
+
+  #features-container {
+    flex-wrap: nowrap;
+  }
+
+  #features-paginator {
+    flex-direction: row;
+    gap: 9px;
+  }
+
+  #form #title {
+    width: 50%;
+    gap: 32px;
+  }
+
+  #testimonial {
+    padding: 12px 0;
+  }
+
+  #testimonial h3 {
+    margin-left: 138.5px;
+  }
+
+  #testimonial-container {
+    grid-template-columns: 1fr;
+  }
+
+  #team {
+    padding: 12px 0;
+  }
+
+  #team-container {
+    margin-left: 55px;
+  }
+
+  #team-container-members {
+    grid-template-columns: auto auto;
+  }
+
+  #contact {
+    gap: 9px;
+  }
+
+  #contact-form {
+    width: 51%;
+    padding: 58px 12px;
+  }
+
+  #price-container {
+    gap: 5px;
+  }
+
+  .price-item {
+    padding: 64px 4px;
+  }
+
+  #footer {
+    padding: 0 5.524%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  #features {
+    gap: 100px;
+  }
+
+  #screen {
+    right: 85px;
+  }
+
+  #features article {
+    gap: 45px;
+  }
+
+  #features-container {
+    gap: 30px;
+  }
+
+  #feature-item {
+    width: unset;
+  }
+
+  #testimonial h3 {
+    margin-left: 3.4469%;
+  }
+
+  #testimonial-container {
+    gap: 20px;
+  }
+
+  .testimonial-item {
+    padding: 30px 15px;
+    gap: 20px;
+  }
+
+  #contact {
+    gap: 6.597%;
+  }
+
+  #price-container {
+    gap: 20px;
+  }
+
+  .price-item {
+    padding: 50px 25px;
+  }
+}

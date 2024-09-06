@@ -1,5 +1,5 @@
 #team {
-  height: 992px;
+  min-height: 992px;
   background-color: #2f1893;
   display: flex;
   flex-direction: column;
@@ -17,15 +17,15 @@
 }
 
 #team-container-title h3 {
-  font-size: 42px;
-  line-height: 52px;
+  font-size: 2.625rem;
+  line-height: 3.25rem;
   letter-spacing: -0.4px;
   margin-bottom: 31px;
 }
 
 #team-container-title h5 {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 1.375rem;
+  line-height: 2rem;
 }
 
 #team-container-members {
@@ -50,14 +50,14 @@
 }
 
 .member h5 {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   margin-bottom: 8.5px;
 }
 
 .member p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 1rem;
+  line-height: 1.625rem;
   font-weight: 300;
 }
 
@@ -68,6 +68,6 @@
 
 .member-socials i {
   width: 16px;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 38px;
 }

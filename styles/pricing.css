@@ -1,0 +1,113 @@
+#pricing-table {
+  min-height: 1130px;
+  background-color: rgb(47, 24, 147, 0.6);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 54px;
+}
+
+#pricing-table::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 100%;
+  height: 100%;
+  background: url("https://s3-alpha-sig.figma.com/img/c722/e855/deb2b6cea2cae4307bf9b64408da515d?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Tgi2sIiUTD3~SUzSth6JUgVWVmey2jfJJo6FH~ir0WKB75DefJzqcQhF1cNav3piOBbkf4OTN0ogCgQ4NuUY75oRzF1ZzxzqZRH4MhVDLTvlIKupsgfRHUvVXSWSAw7uhRTV6D3~idm543Bxnx3OvUFG2boYN6hBMxZwcaAgHzuz7jYJs6RePPKAu4RtvuiBlY29ahMTKU9blRXclQkAHK1ttlBL5O11MFVICxVv77eUK0rYKRTYC~ihs~Pq8cYCGvaXxGylyNbmriN3xrfSh4ksbvDmsi3qBUORMw9yufRVVRSlEu-zQMPOYdc~lbyVNwfMD~JloPlJYuyUIUVtHg__");
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+#pricing-title {
+  max-width: 586px;
+  text-align: center;
+}
+
+#pricing-title h3 {
+  font-size: 2.625rem;
+  line-height: 3.25rem;
+  letter-spacing: -0.4px;
+  margin-bottom: 30px;
+}
+
+#pricing-title h5 {
+  font-size: 1.375;
+  line-height: 2rem;
+}
+
+#price-container {
+  display: flex;
+  gap: 30px;
+}
+
+.price-item {
+  max-width: 370px;
+  padding: 64px 44px;
+  border: 2px solid rgb(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+.price-text {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 44.6px;
+}
+
+.price-text h5 {
+  font-size: 1.375rem;
+  line-height: 2rem;
+  margin-bottom: 22.6px;
+}
+
+.price-text h2 {
+  font-size: 3.625rem;
+  line-height: 4.375rem;
+  letter-spacing: -1px;
+}
+
+.price-text p {
+  position: absolute;
+  top: 65px;
+  right: -17px;
+}
+
+.price-features {
+  margin-bottom: 32.6px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 10px;
+}
+
+.check-icon {
+  width: 12px;
+  height: 8px;
+}
+
+.feature p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 300;
+}
+
+.price-btn-get-started {
+  padding: 17px 60px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  border-radius: 100px;
+  border: 2px solid rgb(255, 255, 255, 0.3);
+  color: #ffffff;
+}
+
+.price-color-btn {
+  background-color: #e93a7d;
+  border: none;
+}

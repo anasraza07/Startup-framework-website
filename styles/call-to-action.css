@@ -1,5 +1,5 @@
 #call-to-action {
-  height: 605px;
+  min-height: 605px;
   background-color: rgb(47, 24, 147, 70%);
   position: relative;
   display: flex;
@@ -27,8 +27,8 @@
 }
 
 #call-to-action-title h2 {
-  font-size: 58px;
-  line-height: 70px;
+  font-size: 3.625rem;
+  line-height: 4.375rem;
   letter-spacing: -1px;
   text-align: center;
   max-width: 770px;
@@ -36,8 +36,8 @@
 }
 
 #call-to-action-title h5 {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 1.375rem;
+  line-height: 2rem;
   text-align: center;
   width: 518px;
 }

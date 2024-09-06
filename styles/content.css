@@ -1,0 +1,51 @@
+#content {
+  min-height: 540px;
+  background-color: rgb(47, 24, 147, 0.5);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("https://s3-alpha-sig.figma.com/img/495a/76ab/fa6125a690a426b8fcb3bbfd55392e02?Expires=1726444800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BqzHr~Pgauqzi12exE8ADmcz2K5-MaQoyxbGM0fJkRem5F5IGNYDWBpXv02kZfHd9-NDajIT8cRl7tMi4hqxEning3Hn3VFpOfr-0vc-jB1SY7RHKcKWgQhIcTA9BL5aTWJuCRg4Ko1JLJxP1kIkNhSkfWxdl9yervfFlSLIyZb6KUXYi1vrVXv-Jx9d2JH9YPfchTtKhFQXg6oJ4RoDgdagDs2xm1lrjulcbqSS1YfTUTbyqw1k0ZAW-apvd90qtkWGKiESmS9juj48Xdt0551KGaLGxNlLrs-OolmyL2YjjBm-e5uhTpwpajQOML79swV2Stjm739lig9DPQI0QA__");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+#content-title {
+  width: 60.41%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+
+#content-title label {
+  font-size: 0.875rem;
+  line-height: 1.62rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#content-title h2 {
+  font-size: 3.625rem;
+  line-height: 4.375rem;
+  letter-spacing: -1px;
+}
+
+#content-title article {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  max-width: 775px;
+  opacity: 70%;
+}

@@ -1,0 +1,79 @@
+#footer {
+  height: 240px;
+  background-color: #2f1893;
+  padding: 0 8.524%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 43px;
+}
+
+#copyrights {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.95rem;
+  letter-spacing: -0.2926px;
+  text-align: center;
+}
+
+#copyrights p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+}
+
+#privacy-terms-and-social {
+  display: flex;
+  justify-content: space-between;
+  gap: 27px;
+}
+
+#socials {
+  display: flex;
+  gap: 29px;
+}
+
+#socials i {
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+
+#divider {
+  width: 100%;
+  height: 2px;
+  border: 2px solid rgb(255, 255, 255, 0.3);
+}
+
+#menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#menu #links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 2.149%; */
+}
+
+#links p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  text-align: center;
+}
+
+#menu #copyright {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  text-align: center;
+}

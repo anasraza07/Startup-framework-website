@@ -10,12 +10,19 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="general.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="call-to-action.css">
-    <link rel="stylesheet" href="showcase.css">
-    <link rel="stylesheet" href="team.css">
-    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/landing-page.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="styles/features.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/testimonial.css">
+    <link rel="stylesheet" href="styles/call-to-action.css">
+    <link rel="stylesheet" href="styles/showcase.css">
+    <link rel="stylesheet" href="styles/team.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/pricing.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 
 <body>
@@ -24,12 +31,12 @@
             <header>
                 <nav>
                     <ul>
-                        <li><a id="home" href="">Home</a></li>
-                        <li><a href="">Features</a></li>
-                        <li><a href="">Pricing</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href=""><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href=""><i class="fa fa-behance"></i></a></li>
+                        <li><a id="home" href="#landing-page">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing-table">Pricing</a></li>
+                        <li><a href="#form">Blog</a></li>
+                        <li><a href="https://dribbble.com"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="https://behance.net"><i class="fa fa-behance"></i></a></li>
                     </ul>
                 </nav>
             </header>
@@ -69,31 +76,34 @@
                         alt="">
                 </div>
             </div>
-            <article>
-                <div id="title">
-                    <h3>We Create Something New</h3>
-                    <h5>We have created a new product that will help designers, developers and companies create websites
-                        for their startups quickly and easily.</h5>
-                </div>
-                <div id="features-container">
-                    <div id="feature-item">
-                        <div><i class="fa fa-commenting-o"></i></div>
-                        <label>30 New feature pages</label>
-                        <p>Startup Framework contains components and complex blocks which can easily. </p>
+            <div id="features-flexbox">
+                <article>
+                    <div id="title">
+                        <h3>We Create Something New</h3>
+                        <h5>We have created a new product that will help designers, developers and companies create
+                            websites
+                            for their startups quickly and easily.</h5>
                     </div>
-                    <div id="feature-item">
-                        <div><i class="fa fa-commenting-o"></i></div>
-                        <label>Useful Symbol Components</label>
-                        <p>Samples will show you the feeling on how to play around using the components.</p>
+                    <div id="features-container">
+                        <div id="feature-item">
+                            <div><img src="./img/fa-commenting.png" /></div>
+                            <label>30 New feature pages</label>
+                            <p>Startup Framework contains components and complex blocks which can easily. </p>
+                        </div>
+                        <div id="feature-item">
+                            <div><img src="./img/fa-diamond.png" /></div>
+                            <label>Useful Symbol Components</label>
+                            <p>Samples will show you the feeling on how to play around using the components.</p>
+                        </div>
                     </div>
+                </article>
+                <div id="features-paginator">
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle-o"></i>
+                    <i class="fa fa-circle-o"></i>
+                    <i class="fa fa-circle-o"></i>
+                    <i class="fa fa-circle-o"></i>
                 </div>
-            </article>
-            <div id="features-paginator">
-                <i class="fa fa-circle"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
             </div>
         </section>
 
@@ -371,7 +381,235 @@
                 </form>
             </div>
         </section>
+
+        <section id="pricing-table">
+            <div id="pricing-title">
+                <h3>Plans & Pricing</h3>
+                <h5>Startup Framework is free forever — you only pay for custom domain hosting or to export your site.
+                </h5>
+            </div>
+            <div id="price-container">
+                <div class="price-item">
+                    <div class="price-text">
+                        <h5>Starter</h5>
+                        <h2>9.99</h2>
+                        <p>$</p>
+                    </div>
+                    <div class="price-features">
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>2 GB of space</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>14 days of backups</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Social integrations</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Client billing</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>Remote access</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>Custom domain</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>24 hours support</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>Collaboration tools</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>User management</p>
+                        </div>
+                    </div>
+                    <button class="price-btn-get-started">Get Started</button>
+                </div>
+
+                <div class="price-item">
+                    <div class="price-text">
+                        <h5>Professional</h5>
+                        <h2>19.99</h2>
+                        <p>$</p>
+                    </div>
+                    <div class="price-features">
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>2 GB of space</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>14 days of backups</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Social integrations</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Client billing</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Remote access</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Custom domain</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>24 hours support</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>Collaboration tools</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                            </div>
+                            <p>User management</p>
+                        </div>
+                    </div>
+                    <button class="price-btn-get-started price-color-btn">
+                        Get Started</button>
+                </div>
+
+                <div class="price-item">
+                    <div class="price-text">
+                        <h5>Team</h5>
+                        <h2>49.99</h2>
+                        <p>$</p>
+                    </div>
+                    <div class="price-features">
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>2 GB of space</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>14 days of backups</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Social integrations</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Client billing</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Remote access</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Custom domain</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>24 hours support</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>Collaboration tools</p>
+                        </div>
+                        <div class="feature">
+                            <div class="check-icon">
+                                <img src="./img/check-icon.png" alt="">
+                            </div>
+                            <p>User management</p>
+                        </div>
+                    </div>
+                    <button class="price-btn-get-started">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div id="copyrights">
+                <div id="logo">Startup 3</div>
+                <div id="privacy-terms-and-social">
+                    <p id="privacy">Privacy Policy</p>
+                    <p id="privacy">Terms</p>
+                    <div id="socials">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-facebook-square"></i>
+                        <i class="fa fa-google-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="divider"></div>
+            <div id="menu">
+                <div id="links">
+                    <p>Tour</p>
+                    <p>Features</p>
+                    <p>Pricing Plans</p>
+                    <p>Our Works</p>
+                    <p>Brands</p>
+                    <p>Contacts</p>
+                </div>
+                <p id="copyright">
+                    © 2017 Designmodo. All rights reserved.
+                </p>
+            </div>
+        </footer>
     </main>
+
+    <a href="#landing-page"><button id="top-btn">Top</button></a>
 
     <script src="https://kit.fontawesome.com/2d3ab58c3d.js" crossorigin="anonymous"></script>
 </body>
