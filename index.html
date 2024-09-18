@@ -10,7 +10,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/landing-page.css">
     <link rel="stylesheet" href="styles/content.css">
     <link rel="stylesheet" href="styles/features.css">
@@ -40,18 +43,58 @@
                     </ul>
                 </nav>
             </header>
-            <div id="text-container">
-                <label>Startup 3</label>
-                <h1>Forget About Code </h1>
-                <h5> Startup Framework gives you complete freedom over your creative process — you don't have to think
-                    about any technical aspects. There are no limits and absolutely no coding. </h5>
-            </div>
-            <div id="paginator-dots">
-                <i class="fa fa-circle"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
-                <i class="fa fa-circle-o"></i>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide text-container">
+                        <label>Startup 3</label>
+                        <h1>Forget About Code </h1>
+                        <h5> Startup Framework gives you complete freedom over your creative process — you don't
+                            have to
+                            think
+                            about any technical aspects. There are no limits and absolutely no coding. </h5>
+                    </div>
+                    <div class="swiper-slide text-container">
+                        <label>Startup 3</label>
+                        <h1>Forget About Code </h1>
+                        <h5> Startup Framework gives you complete freedom over your creative process — you don't
+                            have to
+                            think
+                            about any technical aspects. There are no limits and absolutely no coding. </h5>
+                    </div>
+                    <div class="swiper-slide text-container">
+                        <label>Startup 3</label>
+                        <h1>Forget About Code </h1>
+                        <h5> Startup Framework gives you complete freedom over your creative process — you don't
+                            have to
+                            think
+                            about any technical aspects. There are no limits and absolutely no coding. </h5>
+                    </div>
+                    <div class="swiper-slide text-container">
+                        <label>Startup 3</label>
+                        <h1>Forget About Code </h1>
+                        <h5> Startup Framework gives you complete freedom over your creative process — you don't
+                            have to
+                            think
+                            about any technical aspects. There are no limits and absolutely no coding. </h5>
+                    </div>
+                    <div class="swiper-slide text-container">
+                        <label>Startup 3</label>
+                        <h1>Forget About Code </h1>
+                        <h5> Startup Framework gives you complete freedom over your creative process — you don't
+                            have to
+                            think
+                            about any technical aspects. There are no limits and absolutely no coding. </h5>
+                    </div>
+                </div>
+                <div class="swiper-pagination" id="paginator-dots">
+                    <i class="fa fa-circle"></i>
+                    <i class="fa fa-circle-o"></i>
+                    <i class="fa fa-circle-o"></i>
+                    <i class="fa fa-circle-o"></i>
+                    <i class="fa fa-circle-o"></i>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
             <button id="sign-up">Create an Account</button>
         </section>
@@ -612,6 +655,30 @@
     <a href="#landing-page"><button id="top-btn">Top</button></a>
 
     <script src="https://kit.fontawesome.com/2d3ab58c3d.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+
+        new Swiper('.swiper', {
+            slidesPerView: 1,
+            cssMode: true,
+            // spaceBetween: 100,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                // dynamicBullets: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            slidesPerView: 1
+        });    </script>
 </body>
 
 </html>

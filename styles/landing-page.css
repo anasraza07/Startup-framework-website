@@ -1,15 +1,15 @@
 #landing-page {
-  height: 850px;
+  min-height: 850px;
   background: rgb(46, 24, 147, 0.5);
   position: relative;
 }
 
 #landing-page::before {
   content: "";
-  position: absolute;
   background: url("https://s3-alpha-sig.figma.com/img/2e9d/962f/4c269f57807850115899b4611a2bf3ba?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ebCkcyLPKvjS3LiIrNL2BscY-A~PZYH0HiImj8ts5oZ~Q3eS2AlJbxFjIomxaDzImc-nLFDV1SqjA1EgW2rxUOEkBbG6hu1wZmFWQQ~FYR6aWEFbz81enChsVdGXIxN4QPHNlS1VVB2F88Mqq3-z-jWBsv08ZkYC3ylqISe7U5~VdtYr1Do1RtZqzl8Dd1N3kDkhcalHnfknUl9IlaK2xstpeL2jiAjBOAcGaXGFXCP72IPQjviNeOZaRzVwz-VzPIUq0WfXK0-Lyw6HV6QmsK7bJbrVzE5MyubiPMfXh8R7vtYbmX1gel8AHzfard1aHsCde~Xkx3d05khr0xTx8Q__");
   background-size: cover;
   background-position: center;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -58,16 +58,31 @@ nav ul li a i {
   opacity: 30%;
 }
 
-#text-container {
-  max-width: 740px;
-  margin: 140px auto 0 auto;
+.swiper {
+  /* border: 10px solid red; */
+  max-width: 1100px;
+  height: 100%;
+  /* margin-top: 140px; */
+  padding: 0 3rem 45px;
+}
+
+/* .text-wrapper{
+  max-width: 1100px;
+  margin: 0 30px;
+} */
+
+.text-container {
+  /* max-width: 740px; */
+  cursor: pointer;
+  user-select: none;
+  margin: 140px auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 25px;
 }
 
-#text-container label {
+.text-container label {
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.95rem;
@@ -75,7 +90,7 @@ nav ul li a i {
   text-align: center;
 }
 
-#text-container h1 {
+.text-container h1 {
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 5.37rem;
@@ -83,29 +98,49 @@ nav ul li a i {
   text-align: center;
 }
 
-#text-container h5 {
+.text-container h5 {
   font-size: 1.375rem;
   font-weight: 500;
   line-height: 2rem;
   text-align: center;
   max-width: 736px;
+  /* max-width: 72%; */
+  margin-bottom: 45px;
 }
 
-#paginator-dots {
-  margin: 45px auto 0 auto;
+.swiper-pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 9px;
 }
 
-#paginator-dots i {
+.swiper-pagination-bullet {
+  background-color: #ffffff;
+  width: 0.75rem;
+  height: 0.75rem;
+  opacity: 30%;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 11px;
+  height: 35px;
+  color: #ffffff;
+}
+
+/* #paginator-dots i {
   font-size: 0.75rem;
   line-height: 2.25rem;
 }
 
 #paginator-dots .fa-circle-o {
   opacity: 30%;
-}
+} */
 
 #sign-up {
   font-size: 1.125rem;

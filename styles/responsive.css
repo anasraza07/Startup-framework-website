@@ -8,8 +8,13 @@
     justify-content: space-between;
   }
 
-  #text-container {
+  .text-container {
     margin-top: 90px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
   }
 
   #content-title {
@@ -139,9 +144,14 @@
     font-size: 14px;
   }
 
-  #text-container {
+  .text-container {
     width: unset;
-    margin-top: 80px;
+    /* margin-top: 80px; */
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
   }
 
   #features {

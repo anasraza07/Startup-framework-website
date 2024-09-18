@@ -1,90 +1,71 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-html,
-body {
-  width: 100%;
-  height: 100%;
-  /* line-height: 1.5; */
-  scroll-behavior: smooth;
-  font-family: "DM Sans", sans-serif; /* Default font-family for text */
-}
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    /* line-height: 1.5; */
+    scroll-behavior: smooth;
+    font-family: "DM Sans", sans-serif; /* Default font-family for text */
+  }
 
-ul,
-ol {
-  list-style: none;
-}
+  ul,
+  ol {
+    list-style: none;
+  }
 
-a {
-  text-decoration: none;
-  color: inherit; /* Inherit color from parent */
-}
+  a {
+    text-decoration: none;
+    color: inherit; /* Inherit color from parent */
+  }
 
-img,
-video {
-  max-width: 100%;
-  height: auto;
-  display: block; /* Remove bottom space for images/videos */
-}
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove bottom space for images/videos */
+  }
 
-button,
-input,
-select,
-textarea {
-  font-family: inherit; /* Inherit font from parent */
-  font-size: inherit;
-  border: none;
-  background: none;
-}
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit; /* Inherit font from parent */
+    font-size: inherit;
+    border: none;
+    background: none;
+  }
 
-button {
-  cursor: pointer;
-}
+  button {
+    cursor: pointer;
+  }
 
-fieldset {
-  border: none;
-}
+  fieldset {
+    border: none;
+  }
 
-body {
-  background: #000; /* Default background color */
-  color: #ffffff; /* Default text color */
-}
+  body {
+    background: #000; /* Default background color */
+    color: #ffffff; /* Default text color */
+  }
 
-/* Additional styling for common elements */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: normal;
-}
+  /* Additional styling for common elements */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+  }
 
-code,
-pre {
-  font-family: monospace;
-}
-
-#top-btn {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  padding: 20px;
-  width: 80px;
-  height: 80px;
-  border-radius: 40px;
-  font-weight: 500;
-  font-size: 1.2rem;
-  z-index: 100;
-  background-color: #000;
-  color: #ffffff;
-}
-
-#top-btn:hover{
-  background-color:rgba(0, 0, 0, 0.8) ;
-}
+  code,
+  pre {
+    font-family: monospace;
+  }
